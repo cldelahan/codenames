@@ -30,11 +30,11 @@ def getWords(board, keys, type):
             output.append(board[i])
     return output
 
-board = readBoard("board.txt")
+'''board = readBoard("board.txt")
 keycard = readKeycard("keycard.txt")
 blueWords = getWords(board, keycard, 'B')
 redWords = getWords(board, keycard, 'R')
 loseWords = getWords(board, keycard, 'X')
 print(blueWords)
 print(redWords)
-print(loseWords)
+print(loseWords)'''
